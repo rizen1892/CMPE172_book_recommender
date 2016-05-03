@@ -1,0 +1,23 @@
+{
+  "name": "CMPE172_Book_recommendation",
+  "version": "1.0",
+  "description": "This is an awsome book recommender created by awesome team.",
+  "engines":{
+	"node":"4.4.3",
+	"npm":"2.1.x"
+	},
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "author": "Rizen Yamauchi, David Pham, Sandy Yi, Kevin Lai",
+  "license": "SJSU",
+  "dependencies": {
+  "node-stringify": "0.0.19",
+    "mongoose":"latest",
+    "async": "0.9.0",
+    "jade": "1.9.1",
+    "express": "4.11.1",
+    "mongodb":"latest"
+  }
+}

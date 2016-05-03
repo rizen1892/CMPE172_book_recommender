@@ -1,0 +1,93 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title Book Recommender
+		link(rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css')
+		link(rel='stylesheet' href='//fonts.googleapis.com/css?family=Helvetica')
+		
+
+		style(type='text/css').
+			* {
+				font-family: 'Helvetica';
+			}
+
+	body
+		.container
+			.tablerow
+				.col-xs-6
+					if !user
+						.tablerow
+							.col-xs-8
+								h1 Welcome to CMPE 172
+								p Enter your name:
+								form(method='get')
+									.form-group
+										input.form-control(name='user' placeholder='Name')
+
+									button.btn.btn-primary Login
+
+					else
+						.page-header
+							h1 Welcome, #{user}!
+						h2
+							.pull-right
+								form(action='/reload?user=#{user}' method='post')
+									button.btn.btn-primary reload
+							| Recommended Books for you
+						if recommendations.length == 0
+							.alert.alert-success Rate the books for recommendation
+
+						else
+							.tablerow
+								for book, i in recommendations
+									.col-sm-3
+										.thumbnail
+											img(src='#{book.picture.url}')
+											.caption
+												h4(style='margin-bottom: 24px; overflow: hidden;') #{book.name}
+												.tablerow
+													.col-xs-6
+														form.text-center(action='/like?book=#{book.id}&user=#{user}' method='post')
+															button.btn.btn-default
+																span.glyphicon.glyphicon-thumbs-up
+
+													.col-xs-6
+														form.text-center(action='/dislike?book=#{book.id}&user=#{user}' method='post')
+															button.btn.btn-default
+																span.glyphicon.glyphicon-thumbs-down
+
+						.tablerow
+							.col-xs-6
+								h2 All Books
+								for book, i in books
+									if i%4 == 0
+										.tablerow
+											for book in books.slice(i, i+4)
+												.col-sm-3
+													.thumbnail
+														img(src='#{book.picture.url}')
+														.caption
+															h4(style='margin-bottom: 24px;  overflow: hidden;') #{book.name}
+															.tablerow
+																.col-xs-6
+																	if likes.indexOf(book.id) != -1
+																		form.text-center(action='/like?book=#{book.id}&user=#{user}&unset=yes' method='post')
+																			button.btn.btn-default.active
+																				span.glyphicon.glyphicon-thumbs-up
+
+																	else
+																		form.text-center(action='/like?book=#{book.id}&user=#{user}' method='post')
+																			button.btn.btn-default
+																				span.glyphicon.glyphicon-thumbs-up
+
+																.col-xs-6
+																	if dislikes.indexOf(book.id) != -1
+																		form.text-center(action='/dislike?book=#{book.id}&user=#{user}&unset=yes' method='post')
+																			button.btn.btn-default.active
+																				span.glyphicon.glyphicon-thumbs-down
+
+																	else
+																		form.text-center(action='/dislike?book=#{book.id}&user=#{user}' method='post')
+																			button.btn.btn-default
+																				span.glyphicon.glyphicon-thumbs-down

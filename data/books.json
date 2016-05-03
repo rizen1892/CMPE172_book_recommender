@@ -1,0 +1,184 @@
+[
+	{
+		"id": "1",
+		"name": "A Game of Thrones",
+		"picture": {
+			"url": "http://t2.gstatic.com/images?q=tbn:ANd9GcTpUhgTYJSSTVFjzAEnw7x3qQQkCpQg0nz0d4K7A04i8hMEEgGG"
+		}
+	},
+	{
+		"id": "2",
+		"name": "Promise of Blood",
+		"picture": {
+			"url": "http://t0.gstatic.com/images?q=tbn:ANd9GcSBXsYlp5e_KAbLYZR2oTADoQRcSVrU1LE_jKKpCd8DNiCxhWmL"
+		}
+	},
+	{
+		"id": "3",
+		"name": "The Hobbit",
+		"picture": {
+			"url": "http://t3.gstatic.com/images?q=tbn:ANd9GcSntKKRrCpzzvCMmi9p37a6LSnEbOHKUQlZLB9Je7GZfYauqUQc"
+		}
+	},
+	{
+		"id": "4",
+		"name": "Divergent",
+		"picture": {
+			"url": "http://2.bp.blogspot.com/_dipXdu9QryU/TIupjzY1vsI/AAAAAAAAAh8/9EC03NOMqWs/s1600/Divergent+hc+c(2).jpg"
+		}
+	},
+	{
+		"id": "5",
+		"name": "The Grapes of Wrath",
+		"picture": {
+			"url": "https://upload.wikimedia.org/wikipedia/en/1/1f/JohnSteinbeck_TheGrapesOfWrath.jpg"
+		}
+	},
+	{
+		"id": "6",
+		"name": "Songs of the Dying Earth",
+		"picture": {
+			"url": "http://www.georgerrmartin.com/wp-content/uploads/2012/08/songsofdyingearth.jpg"
+		}
+	},
+	{
+		"id": "7",
+		"name": "Harry Potter and the Sorcerer's Stone",
+		"picture": {
+			"url": "http://t0.gstatic.com/images?q=tbn:ANd9GcS01hSr0VxYgkWg9ydnuMwA92Xcd-sMxaXs0Ae7x3t9CWrshtrp"
+		}
+	},
+	{
+		"id": "8",
+		"name": "Harry Potter and the Chamber of Secrets",
+		"picture": {
+			"url": "http://t2.gstatic.com/images?q=tbn:ANd9GcRkNO2lvee-w8z2m7beulsKucUNW7nyQlpflx8pS8QQVinzul6S"
+		}
+	},
+	{
+		"id": "9",
+		"name": "Harry Potter and the Prisoner of Azkaban",
+		"picture": {
+			"url": "http://t3.gstatic.com/images?q=tbn:ANd9GcQpMUwSXKMjy_ftHrMtOAWMFiAZNaIHuRZK8t0m5DolqCy6MzI2"
+		}
+	},
+	{
+		"id": "10",
+		"name": "Harry Potter and the Goblet of Fire",
+		"picture": {
+			"url": "http://t1.gstatic.com/images?q=tbn:ANd9GcRMpSZF5rf6LZsDMDiBHjP7T5ZcuQekBcyrkex10shkQqHCR_ZS"
+		}
+	},
+	{
+		"id": "11",
+		"name": "Harry Potter and the Order of the Phoenix",
+		"picture": {
+			"url": "http://t1.gstatic.com/images?q=tbn:ANd9GcR1kWHGccxE61muequ5OJsfWD0Q0F1Eb-_2M-1hLeCuoWaa6IPb"
+		}
+	},
+	{
+		"id": "12",
+		"name": "Harry Potter and the Half-Blood Prince",
+		"picture": {
+			"url": "http://t2.gstatic.com/images?q=tbn:ANd9GcT81Pu-gwFKar0szceK70z9y5YINkivMiPD8LwdOFl8uVKKx-1z"
+		}
+	},
+	{
+		"id": "13",
+		"name": "Harry Potter and the Deathly Hallows",
+		"picture": {
+			"url": "http://t0.gstatic.com/images?q=tbn:ANd9GcSmQOh-V3mKnIsZHcjnJMgWg_jGBSbXqnuB3uBNBfrR35y1YfjJ"
+		}
+	},
+	{
+		"id": "14",
+		"name": "The Ocean at the End of the Lane",
+		"picture": {
+			"url": "http://d.gr-assets.com/books/1351914778l/15783514.jpg"
+		}
+	},
+	{
+		"id": "15",
+		"name": "The Golem and the Jinni",
+		"picture": {
+			"url": "http://t0.gstatic.com/images?q=tbn:ANd9GcRggyEcJ86oA9ghaivXr8i8wwsGbGt6xBIzY2jmVJZBgsZalUb9"
+		}
+	},	
+	{
+		"id": "16",
+		"name": "A Wrinkle in Time",
+		"picture": {
+			"url": "http://t2.gstatic.com/images?q=tbn:ANd9GcQMQzexi4idPOlJdLHdniq4t5PCoOrPXsvGM06ZY5iFGZrXEtwM"
+		}
+	},		
+	{
+		"id": "17",
+		"name": "The Great Gatsby",
+		"picture": {
+			"url": "http://www.beautifulbookcovers.com/wp-content/uploads/2013/01/gatsby-original-cover-art.jpg"
+		}
+	},		
+	{
+		"id": "18",
+		"name": "The Name of the Wind",
+		"picture": {
+			"url": "http://www.patrickrothfuss.com/images/page/cover_277.jpg"
+		}
+	},
+	{
+		"id": "19",
+		"name": "To Kill a Mockingbird",
+		"picture": {
+			"url": "http://www.kbgressitt.com/wp-content/uploads/2016/02/ToKillAMockingbird.jpg"
+		}
+	},		
+	{
+		"id": "20",
+		"name": "Of Mice and Men",
+		"picture": {
+			"url": "https://whatwillib.files.wordpress.com/2014/09/bookcover2.jpg"
+		}
+	},	
+	{
+		"id": "21",
+		"name": "The Catcher in the Rye",
+		"picture": {
+			"url": "http://mhsseagleeye.com/wp-content/uploads/2013/12/catcher.jpeg"
+		}
+	},	
+	{
+		"id": "22",
+		"name": "Brave New World",
+		"picture": {
+			"url": "http://theroundplaceinthemiddle.com/wp-content/uploads/2015/09/BRAVENEWWORLD2ND.jpg"
+		}
+	},	
+	{
+		"id": "23",
+		"name": "Beowulf",
+		"picture": {
+			"url": "http://t3.gstatic.com/images?q=tbn:ANd9GcRNQVIiwGLRJfiTncQj5ir-uvV8nf8_UOKDxqvtnQO2WlUxBdCa"
+		}
+	},	
+	{
+		"id": "24",
+		"name": "The Crucible",
+		"picture": {
+			"url": "http://artandcritique.com/wp-content/uploads/2008/04/andrea_kowch_crucible_book-illustrations.jpg"
+		}
+	},	
+	{
+		"id": "25",
+		"name": "The Lord of the Rings",
+		"picture": {
+			"url": "http://ecx.images-amazon.com/images/I/91rq1j7GYhL.jpg"
+		}
+	},	
+	{
+		"id": "26",
+		"name": "Romeo and Juliet",
+		"picture": {
+			"url": "http://englishfeast.wikispaces.com/file/view/41TVrQL4tiL.jpg/234339476/356x550/41TVrQL4tiL.jpg"
+		}
+	}	
+]
